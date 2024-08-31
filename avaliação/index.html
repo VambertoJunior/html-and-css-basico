@@ -1,0 +1,96 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Teste inputs</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="container">
+        <header id="cabecalho">
+            <h1>Bem-vindo! Insira as informações nos campos abaixo!</h1>
+        </header>
+        <main id="principal">
+            <div class="info-pesron">
+                <p class="texto">Informações Pessoais</p>
+                <form class="form-info">
+                    <input type="text" name="nome" placeholder="Digite o seu nome"><br/>
+                    <input type="number" name="idade" value="idade" placeholder="Digite o sua idade"><br/>
+                    <input type="email" name="email" placeholder="Digite o seu email"><br/>
+                    <label for="date">Data de nascimento:</label><br/>
+                    <input type="date" name="date" value="date"><br/>
+                    <label for="senha">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br/>
+                    <input type="password" name="senha" placeholder="Digite uma senha">
+                </form>
+            </div>
+
+            <div class="info-pesron">
+                <p class="texto">Aspecto do Produto</p>
+                <form class="form-info">
+                    <label for="color">Selecione a cor do produto após 6 meses de uso:</label><br/>
+                    <input type="color" name="color"><br/>
+                    <label for="foto">Adicione uma foto de seu produto:</label><br/>
+                    <input type="submit" name="foto" value="Escolher arquivo">
+                </form>
+            </div>
+
+            <div class="info-pesron">
+                <p class="texto">Opinião quanto a utilização</p>
+                <form class="form-info">
+                    <label>Você gosta do cheiro do produto?</label>
+                    <label>
+                        <input type="radio" name="cheiroProduto" value="gostoMuito"> Gosto Muito
+                      </label><br>
+                    <label>
+                        <input type="radio" name="cheiroProduto" value="gosto"> Gosto
+                      </label><br>
+                    <label>
+                        <input type="radio" name="cheiroProduto" value="naoSei"> Não sei
+                    </label><br>
+                    <label>
+                        <input type="radio" name="cheiroProduto" value="naoGosto"> Não gosto
+                    </label><br>
+                    <label>
+                        <input type="radio" name="cheiroProduto" value="odeio"> Odeio
+                    </label>
+
+                    <label>Marque as características do produto mais gosta</label>
+                    <label>
+                        <input type="checkbox" name="cheiroProduto" value="fixação"> fixação
+                      </label><br>
+                    <label>
+                        <input type="checkbox" name="cheiroProduto" value="textura"> textura
+                      </label><br>
+                    <label>
+                        <input type="checkbox" name="cheiroProduto" value="cheiro"> cheiro
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="cheiroProduto" value="cor"> cor
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="cheiroProduto" value="embalagem"> embalagem
+                    </label>
+                </form>
+            </div>
+
+            <div class="info-pesron">
+                <p class="texto">Nível de satisfação</p>
+                <form class="form-info">
+                    <label for="color">Coloque nessa escala o seu nível de satisfação geral do produto</label><br/>
+                    <input type="range" name="range">
+                </form>
+            </div>
+
+            <div class="info-pesron">
+                <p class="texto">Opiniões</p>
+                <form class="form-info">
+                    <label for="texto">Digite abaixo sua opinião geral para esse produto</label><br/>
+                    <textarea placeholder="Digite aqui"></textarea>
+                </form>
+            </div>
+        </main>
+        <button>Gravar respostas</button>
+
+
+
+    </body>
+</html>

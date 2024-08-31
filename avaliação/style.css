@@ -1,0 +1,59 @@
+#container{
+    padding: 50px;
+    border: solid 2px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cabecalho{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+h1{
+    font-weight: 400;
+}
+
+#principal{
+    display: flex;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.info-pesron{
+    padding: 15px;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.form-info{
+    display: grid;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+}
+
+textarea{
+    height: 150px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 970px){
+    #principal{
+        display: block;
+    }
+    
+}
+
+
+
